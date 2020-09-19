@@ -1,0 +1,15 @@
+Package: rNet
+Type: Package
+Title: Build neural net for classification.
+Version: 1.0
+Date: 2020-02-24
+Author: Your Name
+Maintainer: Your Name <your@email.com>
+Description: rNet is a R package for implemetatoin of a forwardfeed neural net for classificaion problems. 
+            Hidden layers use ReLu activation function. The output layer has a sigmoid activation function. 
+            Layers have an additional node for bias. Wieghts are trained using traditional backpropogation.
+            rNet is sourced in C++. Neural nets are built by using an object-oriented approach.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3)
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
